@@ -38,7 +38,7 @@ ProblemEnd 2
 
 echo 3333333333333333333333333333333333333333333333333333333333333333333
 ProblemStart 3
-cal --m $2
+cal $2 $3
 ProblemEnd 3
 
 
@@ -53,7 +53,8 @@ ProblemEnd 4
 echo 5555555555555555555555555555555555555555555555555555555555555555555
 ProblemStart 5
 read -p "A new file will be created in your home directory. What will you call it?  " filename
-cp --f ~/first ~/$filename | nl ~/$filename
+cp --f ~/first ~/$filename
+nl ~/$filename
 ProblemEnd 5
 
 
