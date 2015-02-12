@@ -26,13 +26,13 @@ echo $myName; echo
 
 echo 1111111111111111111111111111111111111111111111111111111111111111111
 ProblemStart 1
-nl ~/first
+cat -n ~/first
 ProblemEnd 1
 
 
 echo 2222222222222222222222222222222222222222222222222222222222222222222
 ProblemStart 2
-nl $1
+cat -n $1
 ProblemEnd 2
 
 
@@ -54,7 +54,7 @@ echo 5555555555555555555555555555555555555555555555555555555555555555555
 ProblemStart 5
 read -p "A new file will be created in your home directory. What will you call it?  " filename
 cp --f ~/first ~/$filename
-nl ~/$filename
+cat -n ~/$filename
 ProblemEnd 5
 
 
