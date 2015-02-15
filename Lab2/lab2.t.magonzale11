@@ -27,7 +27,10 @@ echo $myName; echo
 
 echo 1111111111111111111111111111111111111111111111111111111111111111111
 ProblemStart 1
-
+usrName=(whoami)
+pcName=(hostname -s)
+echo -n  "My User Name:  ";$usrName
+echo -n "This Computer:  ";$pcName
 ProblemEnd 1
 
 
