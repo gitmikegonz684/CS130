@@ -1,0 +1,14 @@
+MIDTERM REVIEW
+
+- know RELATIVE vs ABSOLUTE
+- ASCII uses 7 of the 8 bits. 8 bits = 256
+- word count command = wc ; displays lines, words, chars
+- octal dump command = od ; displays octal base aid
+- in ASCII, 10, is a newline character
+- know how to convert from ASCII to DECIMAL so you can use ASCII table on hex codes
+- hex dump command = hd ; similar to octal dump only the output is in order and at the end of the line it displays the actual text in the file.
+- study "Interacting with Other Users" p.36(?) from class textbook. Will be helpful for LAB#2
+- problem 3D should say $2 instead of $1
+
+
+
