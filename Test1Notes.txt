@@ -11,4 +11,20 @@ MIDTERM REVIEW
 - problem 3D should say $2 instead of $1
 
 
+2015-03-05
+
+- "Stream of data" = linear array of bytes.
+- "cal > out" = will write the CAL ouput to a file called OUT
+- p. 37 -- "stdin" = 0 ; "stdout" = 1 ; "stderr" = 2
+- "who" = displays who is logged in at the moment
+- "file *" will list a description of the file types in the current directory
+- p.38 -- "tr abcdef 123456 < mydoc > newdoc" ; KNOW/UNDERSTAND THIS.
+- "ls -d n*" will show you files that start with N only in the current directory (because of the -d)
+- ">" and ">>" are two different METACHARACTERS. The second one "appends" to the file listed afterwards "cal asdf 2>> bad"
+- "cat foo" vs "cat < foo" = same output but different process. "cat foo" has to go out and get FOO and then open it and then spit it back out. "cat < foo" opens then file and takes the contents and then gives THAT to CAT.
+- (p.38) KNOW the "tr" command.
+- "CTRL d" will nicely stop a process.
+- "CTRL c" will throw a grenade and kill the process with fire.
+- (p.39-40) goes over CTRL d make sure you know that too.
+- (p.41) dev null thing at the top and PIPE at the bottom. Study these as well.
 
