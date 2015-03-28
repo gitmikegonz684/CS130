@@ -1,0 +1,81 @@
+# CS130 Script Header, Spring, 2015
+
+ProblemStart ()
+{
+if [ -f ~/bin/processStart ]; then source ~/bin/processStart $1; fi
+set -o verbose
+}
+
+ProblemEnd ()
+{
+set +o verbose
+read -p "(press Enter) " input
+if [ -f ~/bin/processEnd ]; then source ~/bin/processEnd $1 $input; fi
+}
+
+# force the script to begin running in HOME directory (~)
+cd ~
+echo
+
+# (don't change anything above this line !)
+#----------------------------------------------------------------------
+
+# replace Jimi's name with your name below, using format:  Last, First
+myName="Gonzalez, Michael"
+echo $myName; echo
+
+echo 1111111111111111111111111111111111111111111111111111111111111111111
+ProblemStart 1
+cat ~/file1 fauxFile
+cat ~/file1 fauxFile 1>~/good 2>~/error
+cat ~/good ~/error
+cat ~/file1 fauxFile 2>/dev/null
+ProblemEnd 1
+
+
+echo 2222222222222222222222222222222222222222222222222222222222222222222
+ProblemStart 2
+tr $1 $2 < ~/small
+tr $1 $2 < ~/small > ~/encoded
+cat ~/encoded
+tr $2 $1 < ~/encoded
+tr $2 $1 < ~/encoded > ~/decoded
+echo "CAN BE DIFFERENT"
+diff ~/encoded ~/decoded
+ProblemEnd 2
+
+
+echo 3333333333333333333333333333333333333333333333333333333333333333333
+ProblemStart 3
+cat ~/small | tr a 4 | tee ~/allTeedOff | head -2 | wc
+cat ~/allTeedOff
+ProblemEnd 3
+
+
+echo 4444444444444444444444444444444444444444444444444444444444444444444
+ProblemStart 4
+read -p "Enter a list of strings or numbers seperated by a whitespace: " list
+read -p "Enter a delay value (in seconds): " time
+rm -f ~/myData
+
+for item in $list
+do
+echo $item
+date -u >> ~/myData
+echo $item >> ~/myData
+sleep $time
+done
+echo ".............................."
+cat ~/myData
+ProblemEnd 4
+
+
+echo 5555555555555555555555555555555555555555555555555555555555555555555
+ProblemStart 5
+cd $3
+find *.c | xargs -I {} cp -f {} $4/{}.save
+echo $4
+ls $4
+ProblemEnd 5
+
+
