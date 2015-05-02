@@ -1,0 +1,91 @@
+# CS130 Script Header, Spring, 2015
+
+ProblemStart ()
+{
+if [ -f ~/bin/processStart ]; then source ~/bin/processStart $1; fi
+set -o verbose
+}
+
+ProblemEnd ()
+{
+set +o verbose
+read -p "(press Enter) " input
+if [ -f ~/bin/processEnd ]; then source ~/bin/processEnd $1 $input; fi
+}
+
+# force the script to begin running in HOME directory (~)
+cd ~
+echo
+
+# (don't change anything above this line !)
+#----------------------------------------------------------------------
+
+# replace Jimi's name with your name below, using format:  Last, First
+myName="Gonzalez, Michael"
+echo $myName; echo
+
+echo 1111111111111111111111111111111111111111111111111111111111111111111
+ProblemStart 1
+set +o noclobber
+cal | hexdump | head -3 > ~/hexy; cat -n ~/hexy
+cal | hexdump | head -3 > ~/hexy; cat -n ~/hexy
+ln hexy magonzale11_hard
+ln -s hexy magonzale11_soft
+ls -lit | head -4 | tail -3
+ln ~/hexy /temp/magonzale11_hard ; ln -s ~/hexy /tmp/magonzale11_soft
+df
+ls -lit /tmp/magonzale11_soft
+cat /tmp/magonzale11_soft
+ProblemEnd 1
+
+
+echo 2222222222222222222222222222222222222222222222222222222222222222222
+ProblemStart 2
+LC_ALL=C
+shopt -s expand_aliases
+alias lmod="ls -lta"
+lmod
+alias variables='ls [a-z][-_.][0-9][!0-9]*'
+variables
+ProblemEnd 2
+
+
+echo 3333333333333333333333333333333333333333333333333333333333333333333
+ProblemStart 3
+echo "Right now, the value of my \$PWD is $PWD"
+echo 'Try \echo `ps-ef` to see more processes'
+echo Suddenly she exclaimed, \"We\'ll never get out alive \!\"
+echo "This result is
+on two lines"
+ProblemEnd 3
+
+
+echo 4444444444444444444444444444444444444444444444444444444444444444444
+ProblemStart 4
+touch {,1,2}{1..9}Apr{15,16}
+ls {,1,2}{1..9}Apr{15,16}
+echo `ls {,1,2}{1..9}Apr{15,16} -1 | wc -l` months were just displayed
+ProblemEnd 4
+
+
+echo 5555555555555555555555555555555555555555555555555555555555555555555
+ProblemStart 5
+varName=$1
+a="${varName:0:1}"
+echo $a
+b="${varName:1:1}"
+echo $b
+c="${varName:2:3}"
+echo $c
+x=$((0x$a))
+echo $x
+y=$((0x$b))
+echo $y
+z=$((0x$c))
+echo $z
+let x=x*16*16
+let y=y*16
+let z=z
+let newVar=x+y+z
+echo $1=$newVar
+ProblemEnd 5
