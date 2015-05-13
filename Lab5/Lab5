@@ -34,3 +34,336 @@ Script done on Tue 12 May 2015 04:26:47 PM PDT
 
 
 [[[[[[[[[[[[ Problem 3 ]]]]]]]]]]]]
+Script started on Wed 13 May 2015 11:25:08 AM PDT
+]0;magonzale11@cslab-l24: ~/Linux@cslab-l24:~/Linux$ showMe=`ls -1` ; echo "Here is what this directory contains, displayed i 
+n one column:
+> $showMe"
+Here is what this directory contains, displayed in one column:
+Lab5
+lab5_COPY
+new1
+newone
+w
+x
+y
+z
+zdir
+]0;magonzale11@cslab-l24: ~/Linux@cslab-l24:~/Linux$ exit
+
+Script done on Wed 13 May 2015 11:25:54 AM PDT
+
+
+[[[[[[[[[[[[ Problem 4 ]]]]]]]]]]]]
+Script started on Wed 13 May 2015 12:00:25 PM PDT
+]0;magonzale11@cslab-l24: ~/Linux@cslab-l24:~/Linux$ echo "This co[K[K[K[K[K[K[KThis comand[K[K[Ka[Kmand displays Linux processes"
+This command displays Linux processes
+]0;magonzale11@cslab-l24: ~/Linux@cslab-l24:~/Linux$ top -d 100
+[?1h=[?25l[H[2J(B[mtop - 12:01:11 up 16:04,  3 users,  load average: 29.00, 29.02, 28.93(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m 240 (B[m[39;49mtotal,(B[m[39;49m[1m   1 (B[m[39;49mrunning,(B[m[39;49m[1m 239 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m  0.1 (B[m[39;49mus,(B[m[39;49m[1m  0.0 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 99.8 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem: (B[m[39;49m[1m 32889988 (B[m[39;49mtotal,(B[m[39;49m[1m  3687468 (B[m[39;49mused,(B[m[39;49m[1m 29202520 (B[m[39;49mfree,(B[m[39;49m[1m   147336 (B[m[39;49mbuffers(B[m[39;49m(B[m[39;49m[K
+KiB Swap:(B[m[39;49m[1m 33494012 (B[m[39;49mtotal,(B[m[39;49m[1m        0 (B[m[39;49mused,(B[m[39;49m[1m 33494012 (B[m[39;49mfree.(B[m[39;49m[1m  2205168 (B[m[39;49mcached Mem(B[m[39;49m(B[m[39;49m[K
+[K
+[7m  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND                                                                (B[m[39;49m[K
+(B[m 4666 magonza+  20   0  680208  18908  12192 S   6.2  0.1   0:09.58 mate-terminal                                                          (B[m[39;49m[K
+(B[m[1m 5344 magonza+  20   0   29472   1812   1240 R   6.2  0.0   0:00.01 top                                                                    (B[m[39;49m[K
+(B[m    1 root      20   0   38428   3564   1608 S   0.0  0.0   0:00.92 init                                                                   (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S   0.0  0.0   0:00.01 kthreadd                                                               (B[m[39;49m[K
+(B[m    3 root      20   0       0      0      0 S   0.0  0.0   0:00.91 ksoftirqd/0                                                            (B[m[39;49m[K
+(B[m    5 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/0:0H                                                           (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 S   0.0  0.0   0:02.02 rcu_sched                                                              (B[m[39;49m[K
+(B[m    8 root      20   0       0      0      0 S   0.0  0.0   0:00.50 rcuos/0                                                                (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 S   0.0  0.0   0:00.54 rcuos/1                                                                (B[m[39;49m[K
+(B[m   10 root      20   0       0      0      0 S   0.0  0.0   0:01.41 rcuos/2                                                                (B[m[39;49m[K
+(B[m   11 root      20   0       0      0      0 S   0.0  0.0   0:00.54 rcuos/3                                                                (B[m[39;49m[K
+(B[m   12 root      20   0       0      0      0 S   0.0  0.0   0:00.11 rcuos/4                                                                (B[m[39;49m[K
+(B[m   13 root      20   0       0      0      0 S   0.0  0.0   0:00.23 rcuos/5                                                                (B[m[39;49m[K
+(B[m   14 root      20   0       0      0      0 S   0.0  0.0   0:00.08 rcuos/6                                                                (B[m[39;49m[K
+(B[m   15 root      20   0       0      0      0 S   0.0  0.0   0:00.62 rcuos/7                                                                (B[m[39;49m[K
+(B[m   16 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcu_bh                                                                 (B[m[39;49m[K
+(B[m   17 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcuob/0                                                                (B[m[39;49m[K
+(B[m   18 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcuob/1                                                                (B[m[39;49m[K
+(B[m   19 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcuob/2                                                                (B[m[39;49m[K
+(B[m   20 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcuob/3                                                                (B[m[39;49m[K
+(B[m   21 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcuob/4                                                                (B[m[39;49m[K
+(B[m   22 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcuob/5                                                                (B[m[39;49m[K
+(B[m   23 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcuob/6                                                                (B[m[39;49m[K
+(B[m   24 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcuob/7                                                                (B[m[39;49m[K
+(B[m   25 root      rt   0       0      0      0 S   0.0  0.0   0:00.17 migration/0                                                            (B[m[39;49m[K
+(B[m   26 root      rt   0       0      0      0 S   0.0  0.0   0:00.32 watchdog/0                                                             (B[m[39;49m[K
+(B[m   27 root      rt   0       0      0      0 S   0.0  0.0   0:00.27 watchdog/1                                                             (B[m[39;49m[K
+(B[m   28 root      rt   0       0      0      0 S   0.0  0.0   0:00.20 migration/1                                                            (B[m[39;49m[K
+(B[m   29 root      20   0       0      0      0 S   0.0  0.0   0:00.91 ksoftirqd/1                                                            (B[m[39;49m[K
+(B[m   31 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/1:0H                                                           (B[m[39;49m[K
+(B[m   32 root      rt   0       0      0      0 S   0.0  0.0   0:00.32 watchdog/2                                                             (B[m[39;49m[K
+(B[m   33 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/2                                                            (B[m[39;49m[K
+(B[m   34 root      20   0       0      0      0 S   0.0  0.0   0:00.80 ksoftirqd/2                                                            (B[m[39;49m[K
+(B[m   36 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/2:0H                                                           (B[m[39;49m[K
+(B[m   37 root      rt   0       0      0      0 S   0.0  0.0   0:00.32 watchdog/3                                                             (B[m[39;49m[K
+(B[m   38 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/3                                                            (B[m[39;49m[K
+(B[m   39 root      20   0       0      0      0 S   0.0  0.0   0:00.87 ksoftirqd/3                                                            (B[m[39;49m[K
+(B[m   41 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/3:0H                                                           (B[m[39;49m[K
+(B[m   42 root      rt   0       0      0      0 S   0.0  0.0   0:00.30 watchdog/4                                                             (B[m[39;49m[K
+(B[m   43 root      rt   0       0      0      0 S   0.0  0.0   0:00.18 migration/4                                                            (B[m[39;49m[K
+(B[m   44 root      20   0       0      0      0 S   0.0  0.0   0:00.03 ksoftirqd/4                                                            (B[m[39;49m[K
+(B[m   46 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/4:0H                                                           (B[m[39;49m[K
+(B[m   47 root      rt   0       0      0      0 S   0.0  0.0   0:00.31 watchdog/5                                                             (B[m[39;49m[K
+(B[m   48 root      rt   0       0      0      0 S   0.0  0.0   0:00.02 migration/5                                                            (B[m[39;49m[K
+(B[m   49 root      20   0       0      0      0 S   0.0  0.0   0:00.02 ksoftirqd/5                                                            (B[m[39;49m[K
+(B[m   50 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kworker/5:0                                                            (B[m[39;49m[K
+(B[m   51 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/5:0H                                                           (B[m[39;49m[K
+(B[m   52 root      rt   0       0      0      0 S   0.0  0.0   0:00.30 watchdog/6                                                             (B[m[39;49m[K
+(B[m   53 root      rt   0       0      0      0 S   0.0  0.0   0:00.01 migration/6                                                            (B[m[39;49m[K
+(B[m   54 root      20   0       0      0      0 S   0.0  0.0   0:00.03 ksoftirqd/6                                                            (B[m[39;49m[K
+(B[m   56 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/6:0H                                                           (B[m[39;49m[K
+(B[m   57 root      rt   0       0      0      0 S   0.0  0.0   0:00.31 watchdog/7                                                             (B[m[39;49m[K
+(B[m   58 root      rt   0       0      0      0 S   0.0  0.0   0:00.13 migration/7                                                            (B[m[39;49m[K
+(B[m   59 root      20   0       0      0      0 S   0.0  0.0   0:00.02 ksoftirqd/7                                                            (B[m[39;49m[K
+(B[m   60 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kworker/7:0                                                            (B[m[39;49m[K
+(B[m   61 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/7:0H                                                           (B[m[39;49m[K
+(B[m   62 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 khelper                                                                (B[m[39;49m[K
+(B[m   63 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kdevtmpfs                                                              (B[m[39;49m[K
+(B[m   64 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 netns                                                                  (B[m[39;49m[K
+(B[m   65 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 writeback                                                              (B[m[39;49m[K
+(B[m   66 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kintegrityd                                                            (B[m[39;49m[K[?1l>[69;1H
+[?12l[?25h[K]0;magonzale11@cslab-l24: ~/Linux@cslab-l24:~/Linux$ echo "This command estimates file space usage"
+This command estimates file space usage
+]0;magonzale11@cslab-l24: ~/Linux@cslab-l24:~/Linux$ du -a
+4	./Lab5
+4	./x
+4	./z
+4	./newone
+4	./zdir/x
+4	./zdir/w
+4	./zdir/y
+16	./zdir
+4	./w
+4	./y
+0	./new1
+4	./lab5_COPY
+48	.
+]0;magonzale11@cslab-l24: ~/Linux@cslab-l24:~/Linux$ du -s
+48	.
+]0;magonzale11@cslab-l24: ~/Linux@cslab-l24:~/Linux$ du -k
+4	./newone
+16	./zdir
+48	.
+]0;magonzale11@cslab-l24: ~/Linux@cslab-l24:~/Linux$ echo "This command reports file system disk space usage"
+This command reports file system disk space usage
+]0;magonzale11@cslab-l24: ~/Linux@cslab-l24:~/Linux$ df -h
+Filesystem                 Size  Used Avail Use% Mounted on
+/dev/sda1                  204G   13G  181G   7% /
+none                       4.0K     0  4.0K   0% /sys/fs/cgroup
+udev                        16G  4.0K   16G   1% /dev
+tmpfs                      3.2G  1.3M  3.2G   1% /run
+none                       5.0M     0  5.0M   0% /run/lock
+none                        16G   12K   16G   1% /run/shm
+none                       100M  120K  100M   1% /run/user
+csnfs.sbcc.net:/home/SBCC  536G  310G  200G  61% /home/SBCC
+]0;magonzale11@cslab-l24: ~/Linux@cslab-l24:~/Linux$ df -i
+Filesystem                  Inodes   IUsed    IFree IUse% Mounted on
+/dev/sda1                 13541376  328675 13212701    3% /
+none                       4111248       2  4111246    1% /sys/fs/cgroup
+udev                       4107413     520  4106893    1% /dev
+tmpfs                      4111248     539  4110709    1% /run
+none                       4111248       1  4111247    1% /run/lock
+none                       4111248       4  4111244    1% /run/shm
+none                       4111248      21  4111227    1% /run/user
+csnfs.sbcc.net:/home/SBCC 35684352 4648922 31035430   14% /home/SBCC
+]0;magonzale11@cslab-l24: ~/Linux@cslab-l24:~/Linux$ exit
+
+Script done on Wed 13 May 2015 12:02:22 PM PDT
+
+
+[[[[[[[[[[[[ Problem 5 ]]]]]]]]]]]]
+Script started on Wed 13 May 2015 01:27:56 PM PDT
+]0;magonzale11@cslab-l24: ~/Linux@cslab-l24:~/Linux$ cal 2015 | sed -f mychanges.sed 
+                            2015
+      Januari               Februari               Mars          
+So Ma Ti On To Fr Lo  So Ma Ti On To Fr Lo  So Ma Ti On To Fr Lo  
+             1  2  3   1  2  3  4  5  6  7   1  2  3  4  5  6  7  
+ 4  5  6  7  8  9 10   8  9 10 11 12 13 14   8  9 10 11 12 13 14  
+11 12 13 14 15 16 17  15 16 17 18 19 20 21  15 16 17 18 19 20 21  
+18 19 20 21 22 23 24  22 23 24 25 26 27 28  22 23 24 25 26 27 28  
+25 26 27 28 29 30 31                        29 30 31              
+                                                                  
+
+       April                  Maj                   Juni          
+So Ma Ti On To Fr Lo  So Ma Ti On To Fr Lo  So Ma Ti On To Fr Lo  
+          1  2  3  4                  1  2      1  2  3  4  5  6  
+ 5  6  7  8  9 10 11   3  4  5  6  7  8  9   7  8  9 10 11 12 13  
+12 13 14 15 16 17 18  10 11 12 _1_3 14 15 16  14 15 16 17 18 19 20  
+19 20 21 22 23 24 25  17 18 19 20 21 22 23  21 22 23 24 25 26 27  
+26 27 28 29 30        24 25 26 27 28 29 30  28 29 30              
+                      31                                          
+
+        Juli                 Augusti              September        
+So Ma Ti On To Fr Lo  So Ma Ti On To Fr Lo  So Ma Ti On To Fr Lo  
+          1  2  3  4                     1         1  2  3  4  5  
+ 5  6  7  8  9 10 11   2  3  4  5  6  7  8   6  7  8  9 10 11 12  
+12 13 14 15 16 17 18   9 10 11 12 13 14 15  13 14 15 16 17 18 19  
+19 20 21 22 23 24 25  16 17 18 19 20 21 22  20 21 22 23 24 25 26  
+26 27 28 29 30 31     23 24 25 26 27 28 29  27 28 29 30           
+                      30 31                                       
+
+      Oktober               November              December        
+So Ma Ti On To Fr Lo  So Ma Ti On To Fr Lo  So Ma Ti On To Fr Lo  
+             1  2  3   1  2  3  4  5  6  7         1  2  3  4  5  
+ 4  5  6  7  8  9 10   8  9 10 11 12 13 14   6  7  8  9 10 11 12  
+11 12 13 14 15 16 17  15 16 17 18 19 20 21  13 14 15 16 17 18 19  
+18 19 20 21 22 23 24  22 23 24 25 26 27 28  20 21 22 23 24 25 26  
+25 26 27 28 29 30 31  29 30                 27 28 29 30 31        
+                                                                  
+]0;magonzale11@cslab-l24: ~/Linux@cslab-l24:~/Linux$ cat mychanges.sed 
+# translates months of the year from English to Swedish 
+
+s/January/Januari/g
+s/February/Februari/g
+s/March/Mars/g
+s/April/April/g
+s/May/Maj/g
+s/June/Juni/g
+s/July/Juli/g
+s/August/Augusti/g
+s/September/September/g
+s/October/Oktober/g
+s/November/November/g
+s/December/December/g
+s/Su/So/g
+s/Mo/Ma/g
+s/Tu/Ti/g
+s/We/On/g
+s/Th/To/g
+s/Fr/Fr/g
+s/Sa/Lo/g
+]0;magonzale11@cslab-l24: ~/Linux@cslab-l24:~/Linux$ exit
+
+Script done on Wed 13 May 2015 01:28:12 PM PDT
+
+
+[[[[[[[[[[[[ Problem 6 ]]]]]]]]]]]]
+Script started on Wed 13 May 2015 01:32:31 PM PDT
+]0;magonzale11@cslab-l24: ~/Linux@cslab-l24:~/Linux$ sort names
+Amy Gonzalez 20
+Bill Gates 59
+Jon Hernandez 28
+Michael Gonzalez 23
+Mickey Mouse 70
+Rachel McAdamns 36 
+Raquel Alvarado 31
+Red Ranger 50
+Ron Swanson 41
+Yogi Bear 35
+]0;magonzale11@cslab-l24: ~/Linux@cslab-l24:~/Linux$ sort -k2 names
+Raquel Alvarado 31
+Yogi Bear 35
+Bill Gates 59
+Amy Gonzalez 20
+Michael Gonzalez 23
+Jon Hernandez 28
+Rachel McAdamns 36 
+Mickey Mouse 70
+Red Ranger 50
+Ron Swanson 41
+]0;magonzale11@cslab-l24: ~/Linux@cslab-l24:~/Linux$ sort -k3 names
+Amy Gonzalez 20
+Michael Gonzalez 23
+Jon Hernandez 28
+Raquel Alvarado 31
+Yogi Bear 35
+Rachel McAdamns 36 
+Ron Swanson 41
+Red Ranger 50
+Bill Gates 59
+Mickey Mouse 70
+]0;magonzale11@cslab-l24: ~/Linux@cslab-l24:~/Linux$ sort -rk3 names
+Mickey Mouse 70
+Bill Gates 59
+Red Ranger 50
+Ron Swanson 41
+Rachel McAdamns 36 
+Yogi Bear 35
+Raquel Alvarado 31
+Jon Hernandez 28
+Michael Gonzalez 23
+Amy Gonzalez 20
+]0;magonzale11@cslab-l24: ~/Linux@cslab-l24:~/Linux$ exit
+
+Script done on Wed 13 May 2015 01:33:01 PM PDT
+
+
+[[[[[[[[[[[[ Problem 7 ]]]]]]]]]]]]
+Script started on Wed 13 May 2015 01:43:26 PM PDT
+]0;magonzale11@cslab-l24: ~/Linux@cslab-l24:~/Linux$ diff names names2
+3c3
+< Jon Hernandez 28
+---
+> Jonathan Hernandez 28
+6c6
+< Red Ranger 50
+---
+> Power Ranger 50
+8c8,9
+< Mickey Mouse 70
+---
+> Mickey Mouse 100
+> Scooby Doo 18
+]0;magonzale11@cslab-l24: ~/Linux@cslab-l24:~/Linux$ diff names2 names3
+7c7
+< Yogi Bear 35
+---
+> Pooh Bear 14 
+9c9
+< Scooby Doo 18
+---
+> Scrappy Doo 11 
+11a12
+> Keira Knightley 30
+]0;magonzale11@cslab-l24: ~/Linux@cslab-l24:~/Linux$ exit
+
+Script done on Wed 13 May 2015 01:43:37 PM PDT
+
+
+[[[[[[[[[[[[ Problem 8 ]]]]]]]]]]]]
+Script started on Wed 13 May 2015 02:50:19 PM PDT
+]0;magonzale11@cslab-l24: ~/Linux@cslab-l24:~/Linux$ cat listlinks.sh 
+ls -l $1 | grep '^l' 
+]0;magonzale11@cslab-l24: ~/Linux@cslab-l24:~/Linux$ bash listlinks.sh .
+lrwxrwxrwx 1 magonzale11 magonzale11     1 May 13 14:49 w2 -> w
+lrwxrwxrwx 1 magonzale11 magonzale11     1 May 13 14:49 x2 -> x
+lrwxrwxrwx 1 magonzale11 magonzale11     1 May 13 14:50 y2 -> y
+lrwxrwxrwx 1 magonzale11 magonzale11     1 May 13 14:50 z2 -> z
+]0;magonzale11@cslab-l24: ~/Linux@cslab-l24:~/Linux$ exit
+
+Script done on Wed 13 May 2015 02:50:31 PM PDT
+
+
+[[[[[[[[[[[[ Problem 9 ]]]]]]]]]]]]
+Script started on Wed 13 May 2015 03:06:36 PM PDT
+]0;magonzale11@cslab-l24: ~/Linux@cslab-l24:~/Linux$ cat search.sh 
+find /etc -name "$1" 2> /dev/null
+]0;magonzale11@cslab-l24: ~/Linux@cslab-l24:~/Linux$ bash search.sh *dev*
+/etc/default/devpts
+/etc/modprobe.d/fbdev-blacklist.conf
+/etc/modprobe.d/vmwgfx-fbdev.conf
+/etc/fonts/conf.d/90-ttf-devanagari-fonts.conf
+/etc/fonts/conf.avail/90-ttf-devanagari-fonts.conf
+/etc/brltty/devanagari.tti
+/etc/init.d/udev
+/etc/init/mountdevsubfs.sh.conf
+/etc/init/udevmonitor.conf
+/etc/init/cryptdisks-udev.conf
+/etc/init/mounted-dev.conf
+/etc/init/udev-fallback-graphics.conf
+/etc/init/udevtrigger.conf
+/etc/init/udev-finish.conf
+/etc/init/upstart-udev-bridge.conf
+/etc/init/udev.conf
+/etc/udev
+/etc/udev/udev.conf
+]0;magonzale11@cslab-l24: ~/Linux@cslab-l24:~/Linux$ exit
+
+Script done on Wed 13 May 2015 03:06:57 PM PDT
+
+
+[[[[[[[[[[[[ Problem 10 ]]]]]]]]]]]]
