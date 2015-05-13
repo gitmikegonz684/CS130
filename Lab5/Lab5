@@ -367,3 +367,19 @@ Script done on Wed 13 May 2015 03:06:57 PM PDT
 
 
 [[[[[[[[[[[[ Problem 10 ]]]]]]]]]]]]
+Script started on Wed 13 May 2015 04:07:49 PM PDT
+]0;magonzale11@cslab-l24: ~/Linux@cslab-l24:~/Linux$ bash cal.sh 
+Day of the year: 
+133
+      May 2015        
+Su Mo Tu We Th Fr Sa  
+                1  2  
+ 3  4  5  6  7  8  9  
+10 11 12 [7m13[27m 14 15 16  
+17 18 19 20 21 22 23  
+24 25 26 27 28 29 30  
+31                    
+Great class. I won't miss waking up at 6:00AM
+]0;magonzale11@cslab-l24: ~/Linux@cslab-l24:~/Linux$ exit
+
+Script done on Wed 13 May 2015 04:08:01 PM PDT
