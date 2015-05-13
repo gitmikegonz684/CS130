@@ -1,0 +1,36 @@
+[[[[[[[[[[[[ Problem 1 ]]]]]]]]]]]]
+Script started on Tue 12 May 2015 03:56:22 PM PDT
+]0;magonzale11@cslab-l24: ~/Linux@cslab-l24:~/Linux$ umask 0062
+]0;magonzale11@cslab-l24: ~/Linux@cslab-l24:~/Linux$ touch new1
+]0;magonzale11@cslab-l24: ~/Linux@cslab-l24:~/Linux$ mkdir newone
+]0;magonzale11@cslab-l24: ~/Linux@cslab-l24:~/Linux$ ls -l
+total 4
+-rw-r--r-- 1 magonzale11 magonzale11    0 May 12 15:56 Lab5
+-rw----r-- 1 magonzale11 magonzale11    0 May 12  2015 new1
+drwx--xr-x 2 magonzale11 magonzale11 4096 May 12  2015 [0m[01;34mnewone[0m
+]0;magonzale11@cslab-l24: ~/Linux@cslab-l24:~/Linux$ exit
+
+Script done on Tue 12 May 2015 03:56:44 PM PDT
+
+
+[[[[[[[[[[[[ Problem 2 ]]]]]]]]]]]]
+Script started on Tue 12 May 2015 04:26:20 PM PDT
+]0;magonzale11@cslab-l24: ~/Linux@cslab-l24:~/Linux$ cat w x y z
+file w
+file x
+file y
+file z
+]0;magonzale11@cslab-l24: ~/Linux@cslab-l24:~/Linux$ cp w x y z
+cp: target ‘z’ is not a directory
+]0;magonzale11@cslab-l24: ~/Linux@cslab-l24:~/Linux$ cat w x y a[Kzdir
+file w
+file x
+file y
+cat: zdir: Is a directory
+]0;magonzale11@cslab-l24: ~/Linux@cslab-l24:~/Linux$ cp w x y zdir
+]0;magonzale11@cslab-l24: ~/Linux@cslab-l24:~/Linux$ exit
+
+Script done on Tue 12 May 2015 04:26:47 PM PDT
+
+
+[[[[[[[[[[[[ Problem 3 ]]]]]]]]]]]]
