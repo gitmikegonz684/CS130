@@ -1,0 +1,82 @@
+=== CLASS NOTES ===
+
+Permissions and admin on files
+- "777" = system mask when using <chmod>
+- "000" = removing all permissions when using <chmod>
+
+
+
+THURSDAY, APRIL 30TH, 2015 (pg. 67-7_)
+Output on the command line
+- using quotes [' '] will print out whatever is inside if you use the <echo> command
+- quoting is a BIG DEAL because it delays the interpretation of arguments.
+
+For Lab #5
+- look in [/home/kloos/bin] and use the [args] file in the CS Lab.
+- $0 is the variable for the name of the program... the 0th argument when you run the script.
+
+For Lab #4
+- Don't have to use loops for the "challenge" in #5
+	- "16 times the previous spot"
+	- should be able to handle any number of strings
+
+Expressions from Class Notebook
+- just know that this was the only way at one point.
+- it has gotten much easier now, the way described in the notes is too complicated.
+
+Linux OS Process
+- a process is a program in execution
+- before being executed it was in the harddrive
+- use the [ps] command to see the currently running processes
+- it's up to the scheduler to pick a process out of the "ready queue"
+	- you don't know the order in which te processes will be executed. The OS decieds.
+- the "counter" file in Class Notebook (pg.77) demonstrates processes.
+	- the sleep process' only purpose is to count to 3 then die
+	- after it does this it lets the counter know
+
+
+
+
+
+THURSDAY, MAY 7TH, 2015 (pg. 77-8_)
+The grep Command
+- using quotes in combination with grep  removes the meaning of meta characters
+- quotes also delay the interpretation of w/e is in the quotes.
+	- EX:$ grep '\.$' big
+		- looks for all lines in file "big" that end with a period.
+	- EX:$ grep 'th.*q' big | grep unset
+		- looks for lines in file "big" that contain "th" then "q" then "unset" (???) 
+
+Block Devices/ Char Devices
+- found inside dev/null
+
+The find Command (pg.81)
+- searches for files and executes actions on the found files
+	- EX:$ find $1 -type f -exec grep -il "$2" {} \; -exec grep -in "$2" {} \;
+		- search file in specified dirs ($1) for passed search string ($2) first grep list file name; second grep displays #ed found lines.
+
+The sed Command (pg.82)
+- stands for "stream editor"
+- it replaces multiple strings in multiple files with a single command. 
+- can also be used to just make one change in one file.
+
+The FINAL EXAM
+- 70/30 ratio emphasis on newer stuff from "Pipes" to now.
+- multiple choice, T/F, written
+- contrast static vs dynamic in OS 
+	- yeah dynamic is loading files....
+- what is a shell?
+- he is assuming we have tried examples in Class Notes
+- no tar and zip
+- xargs is fair game because we did a program on it
+- know labs 3, 4, 5
+	- might pull questions from lab 5
+- LARGE SCANTRON
+- 45% grade = final exam
+- how to study for this:
+	- class notes, labs
+
+For Lab 5
+- highlight my written code
+- have big lines between problem #s
+- print out and bring in for final
